@@ -6,7 +6,6 @@ Reachability analysis identifies which vulnerabilities are actually reachable fr
 
 - Socket enterprise plan
 - API token with the following scopes:
-  - `socket-basics:read`
   - `uploaded-artifacts:create`
   - `full-scans:create`
   - `full-scans:list`
