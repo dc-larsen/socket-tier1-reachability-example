@@ -17,7 +17,12 @@ See the [setup guide](docs/SOCKET_REACHABILITY_SETUP.md) for complete instructio
 ### Requirements
 
 - Socket enterprise plan
-- API token with scopes: `socket-basics`, `uploaded-artifacts`, `full-scans`, `repo`
+- API token with the following scopes:
+  - `socket-basics:read`
+  - `uploaded-artifacts:create`
+  - `full-scans:create`
+  - `full-scans:list`
+  - `repo:create`
 
 ### Workflow
 

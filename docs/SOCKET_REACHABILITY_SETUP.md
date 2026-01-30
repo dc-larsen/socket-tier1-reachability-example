@@ -5,7 +5,12 @@ Reachability analysis identifies which vulnerabilities are actually reachable fr
 ## Requirements
 
 - Socket enterprise plan
-- API token with scopes: `socket-basics`, `uploaded-artifacts`, `full-scans`, `repo`
+- API token with the following scopes:
+  - `socket-basics:read`
+  - `uploaded-artifacts:create`
+  - `full-scans:create`
+  - `full-scans:list`
+  - `repo:create`
 
 ## Setup
 
